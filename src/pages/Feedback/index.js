@@ -5,9 +5,6 @@ import { truncateComment } from '~/services/utils';
 function Feedback() {
     const cx = classNames.bind(styles);
     const navigate = useNavigate();
-    const handleFeedbackClick = (feedback) => {
-        navigate('/feedbackdetail', { state: { feedback } });
-    };
 
     const feedbacks = [
         {
@@ -73,6 +70,10 @@ function Feedback() {
             ],
         },
     ];
+
+    const handleFeedbackClick = (feedback) => {
+        navigate('/feedbackdetail', { state: { feedback } });
+    };
 
     return (
         <div className={cx('app')}>

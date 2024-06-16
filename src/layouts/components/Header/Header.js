@@ -73,7 +73,7 @@ function Header() {
         {
             icon: <FontAwesomeIcon icon={faUser} />,
             title: 'View profile',
-            to: '/@hoaa',
+            to: '/@:nickname',
         },
         {
             icon: <FontAwesomeIcon icon={faCoins} />,
@@ -125,8 +125,16 @@ function Header() {
                         </>
                     ) : (
                         <>
-                            <Button text>Upload</Button>
-                            <Button primary>Log in</Button>
+                            <Button primary>
+                                <Link to="/login" className={cx('login-link')}>
+                                    Log in
+                                </Link>
+                            </Button>
+                            <Button primary>
+                                <Link to="/register" className={cx('login-link')}>
+                                    Register
+                                </Link>
+                            </Button>
                         </>
                     )}
 

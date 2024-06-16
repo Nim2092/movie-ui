@@ -6,12 +6,12 @@ import styles from './DefaultLayout.module.scss';
 
 const cx = classNames.bind(styles);
 
-function DefaultLayout({ children }) {
+function DefaultLayout({ children, role }) {
     return (
         <div className={cx('wrapper')}>
             <Header />
             <div className={cx('container')}>
-                <Sidebar />
+                <Sidebar role={role} />
                 <div className={cx('content')}>{children}</div>
             </div>
         </div>
@@ -20,6 +20,7 @@ function DefaultLayout({ children }) {
 
 DefaultLayout.propTypes = {
     children: PropTypes.node.isRequired,
+    role: PropTypes.string,
 };
 
 export default DefaultLayout;

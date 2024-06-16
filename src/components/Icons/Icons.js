@@ -210,28 +210,171 @@ export const ShowTimeActiveIcon = ({ width = '3.2rem', height = '3.2rem', classN
     </svg>
 );
 
+export const MoreIcon = ({ width = '2rem', height = '2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 32 32"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M16 18.6667C17.4728 18.6667 18.6667 17.4728 18.6667 16C18.6667 14.5272 17.4728 13.3333 16 13.3333C14.5272 13.3333 13.3333 14.5272 13.3333 16C13.3333 17.4728 14.5272 18.6667 16 18.6667ZM16 21.3333C18.9455 21.3333 21.3333 18.9455 21.3333 16C21.3333 13.0545 18.9455 10.6667 16 10.6667C13.0545 10.6667 10.6667 13.0545 10.6667 16C10.6667 18.9455 13.0545 21.3333 16 21.3333ZM6.66667 18.6667C8.13947 18.6667 9.33333 17.4728 9.33333 16C9.33333 14.5272 8.13947 13.3333 6.66667 13.3333C5.19387 13.3333 4 14.5272 4 16C4 17.4728 5.19387 18.6667 6.66667 18.6667ZM25.3333 18.6667C26.8062 18.6667 28 17.4728 28 16C28 14.5272 26.8062 13.3333 25.3333 13.3333C23.8605 13.3333 22.6667 14.5272 22.6667 16C22.6667 17.4728 23.8605 18.6667 25.3333 18.6667Z"
+        ></path>
+    </svg>
+);
+
+export const KeyboardIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M20 7v10H4V7h16m0-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 12h2v2h-2zm6-4h2v2h-2zm-6-4h8v2H11zm-4 0h2v2H7zm2 8h2v2H9zm4 0h2v2h-2zm-4-4h2v2H9z"
+            fill="currentColor"
+        ></path>
+    </svg>
+);
+
+export const SmileIcon = ({ width = '2.4rem', height = '2.4rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-5.5 8.5c.69 0 1.26.57 1.26 1.26s-.57 1.26-1.26 1.26c-.69 0-1.26-.57-1.26-1.26s.57-1.26 1.26-1.26zm10 0c.69 0 1.26.57 1.26 1.26s-.57 1.26-1.26 1.26c-.69 0-1.26-.57-1.26-1.26s.57-1.26 1.26-1.26zm-5 4c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"
+            fill="currentColor"
+        ></path>
+    </svg>
+);
+
 export const YourTicketIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
     <svg
-        fill="currentColor"
         className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
+        fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <path d="M1024 452l316 316-572 572-316-316zm-211 979l618-618q19-19 19-45t-19-45l-362-362q-18-18-45-18t-45 18l-618 618q-19 19-19 45t19 45l362 362q18 18 45 18t45-18zm889-637l-907 908q-37 37-90.5 37t-90.5-37l-126-126q56-56 56-136t-56-136-136-56-136 56l-125-126q-37-37-37-90.5t37-90.5l907-906q37-37 90.5-37t90.5 37l125 125q-56 56-56 136t56 136 136 56 136-56l126 125q37 37 37 90.5t-37 90.5z"></path>
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22ZM10 34C10 25.7157 16.7157 19 24 19C31.2843 19 38 25.7157 38 34V38H10V34Z"
+        />
     </svg>
 );
 
 export const YourTicketActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
     <svg
-        fill="currentColor"
         className={className}
         width={width}
         height={height}
         viewBox="0 0 48 48"
+        fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
     >
         <path d="M1024 452l316 316-572 572-316-316zm-211 979l618-618q19-19 19-45t-19-45l-362-362q-18-18-45-18t-45 18l-618 618q-19 19-19 45t19 45l362 362q18 18 45 18t45-18zm889-637l-907 908q-37 37-90.5 37t-90.5-37l-126-126q56-56 56-136t-56-136-136-56-136 56l-125-126q-37-37-37-90.5t37-90.5l907-906q37-37 90.5-37t90.5 37l125 125q-56 56-56 136t56 136 136 56 136-56l126 125q37 37 37 90.5t-37 90.5z" />
+    </svg>
+);
+
+export const ReportIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z"
+        />
+    </svg>
+);
+
+export const ReportActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z" />
+    </svg>
+);
+
+export const DashboardIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z"
+        />
+    </svg>
+);
+
+export const DashboardActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z" />
+    </svg>
+);
+
+export const SchedulesIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z"
+        />
+    </svg>
+);
+
+export const SchedulesActiveIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg
+        className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 48 48"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path d="M24 40C26.2091 40 28 38.2091 28 36C28 33.7909 26.2091 32 24 32C21.7909 32 20 33.7909 20 36C20 38.2091 21.7909 40 24 40ZM24 44C28.4183 44 32 40.4183 32 36C32 31.5817 28.4183 28 24 28C19.5817 28 16 31.5817 16 36C16 40.4183 19.5817 44 24 44ZM24 22C17.3726 22 12 27.3726 12 34V38C12 39.1046 12.8954 40 14 40H34C35.1046 40 36 39.1046 36 38V34C36 27.3726 30.6274 22 24 22Z" />
     </svg>
 );
